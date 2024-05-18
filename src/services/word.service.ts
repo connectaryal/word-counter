@@ -3,7 +3,7 @@ export class WordService {
 
   constructor(word: string) {
 
-    this.words = word.replace(/\s+/g, ' '); // remove empty words
+    this.words = word; // remove empty words
   }
 
   // get character count from word, split words by spaces, new line, and dots
