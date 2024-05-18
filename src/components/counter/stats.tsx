@@ -1,14 +1,4 @@
-
-
-
-
-const CounterStats = () => {
-  const stats = [
-    { name: 'Words', stat: '71,897' },
-    { name: 'Character', stat: '58.16' },
-    { name: 'Senteces', stat: '24.57' },
-    { name: 'Paragraph', stat: '24.57' },
-  ]
+const CounterStats = ({ stats }: { stats: { name: string, stat: number }[] }) => {
 
   return (
     <dl className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-4">

@@ -1,11 +1,4 @@
-const TextArea = () => {
-
-  const handleKeyUp = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
-
-    const target = e.target as HTMLTextAreaElement
-
-    console.log(target.value)
-  }
+const TextArea = ({ handleKeyUp }: { handleKeyUp: (e: React.KeyboardEvent<HTMLTextAreaElement>) => void }) => {
 
   return (
     <div className="textarea my-10">
