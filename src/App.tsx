@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className="page">
-      <div className="w-full mx-auto max-w-7xl px-6 mt-8 lg:px-8">
+      <div className="w-full mx-auto max-w-7xl px-6 mt-8 lg:px-8 min-h-screen flex flex-col justify-between">
 
         <Header />
 
